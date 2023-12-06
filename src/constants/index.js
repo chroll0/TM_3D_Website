@@ -24,6 +24,11 @@ import {
   tailwindcss,
   threads,
   typescript,
+  camp,
+  craftsman,
+  nike,
+  promtopia,
+  costumizer,
 } from "../assets/icons";
 
 export const skills = [
@@ -171,62 +176,68 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/chroll0",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/saba-antadze-296966264/",
   },
 ];
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: camp,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Camp Area",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Welcome to the Travel Website, your portal to the world of travel and exploration. Explore destinations, share experiences, and connect with fellow travelers. Join us in building the future of travel websites.",
+    link: "https://travel-website-rho-navy.vercel.app/",
+    code: "https://github.com/chroll0/Travel-Website",
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    iconUrl: craftsman,
+    theme: "btn-back-pink",
+    name: "Craftsman's HUB",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "Discover the Perfect Craftsman | Find Your Ideal Work Craftsmen, seize the chance to showcase skills and find exciting work opportunities. Users, set out on a journey to uncover the perfect artisan for projects and extend job offers.",
+    link: "https://craftsman-s-hub.vercel.app/",
+    code: "https://github.com/chroll0/Craftsman-s-HUB",
   },
   {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Car Hub",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "This website is built with Next.js and TypeScript, featuring powerful search and filter functions. It's powered by a RESTful API, making it easy for you to find the perfect vehicle for your needs.",
+    link: "https://car-hub-self.vercel.app/",
+    code: "https://github.com/chroll0/Car_Hub",
   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    iconUrl: costumizer,
+    theme: "btn-back-green",
+    name: "T-shirt Customizer",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "T-shirt Customizer platform combines the power of artificial intelligence with your imagination, allowing you to create unique and stylish custom T-shirts.",
+    link: "https://t-shirt-customizer-website.netlify.app/",
+    code: "https://github.com/chroll0/T-shirt-Customizer",
   },
   {
-    iconUrl: estate,
+    iconUrl: nike,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Nike Website Demo",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "Nike Website is dedicated to the development of a modern and dynamic website inspired by the iconic Nike brand. Whether you're a sneakerhead, fitness enthusiast, or simply a fan of Nike's products and culture.",
+    link: "https://nike-website-designe.netlify.app/",
+    code: "https://github.com/chroll0/Nike-Website",
   },
   {
-    iconUrl: summiz,
+    iconUrl: promtopia,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Promtopia",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Promtopia is a hub of creative prompts and inspiration. Explore, contribute, and inspire your creativity with our collection of prompts spanning various genres. Join us in reimagining the world of storytelling and artistic expression!",
+    link: "https://full-stake-website-9ew94pt76-chroll0.vercel.app/",
+    code: "https://github.com/chroll0/Promtopia",
   },
 ];
